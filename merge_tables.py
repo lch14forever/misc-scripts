@@ -29,6 +29,7 @@ def main(arguments):
     parser.add_argument("-f", "--naFill",
                         dest="naFill",
                         type=float,
+                        default=0.0,
                         help="Fill the missing values. Default: [0.0]")
     
     parser.add_argument("--header",
